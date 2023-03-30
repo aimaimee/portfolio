@@ -6,7 +6,9 @@
 
 ## 프로젝트
 ### 이커머스 데이터셋(Olist), 판매 물품 선정 가이드라인 분석
-__링크 및 코드:__ [olist_ecommerce](https://github.com/aimaimee/olist_ecommerce.git)
+__코드:__ [olist_ecommerce ipynb](https://github.com/aimaimee/portfolio/blob/main/olist_ecommerce/olist_ecommerce.ipynb)
+
+__보고서:__[olist_ecommerce_md](https://github.com/aimaimee/portfolio/blob/main/olist_ecommerce/olist_ecommerce.md)
 
 __개요:__
 
