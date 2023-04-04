@@ -1,5 +1,3 @@
-# olist_ecommerce
-
 <center><img src="https://user-images.githubusercontent.com/115875669/228904040-4aba838e-0da6-47e8-bac0-eb80a46e6c92.png" width="500" height="650"></center>
 
 
