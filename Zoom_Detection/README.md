@@ -1,6 +1,6 @@
 # 온라인 수강생의 자리비움 여부 탐지 모델링
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/115875669/230782121-c6170cb4-4122-4684-a115-28190b129114.gif)
+![ezgif com-resize](https://user-images.githubusercontent.com/115875669/230790831-14510ebd-d9d9-4d9c-8491-0f7492a4ca5f.gif)
 ## 1. 프로젝트 개요
 
 프로젝트 기간 : 22.12.22- 22.01.05 (2주)
