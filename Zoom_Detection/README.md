@@ -152,4 +152,4 @@ CASE 1) 팀원 사진을 모두 사전 학습
 
 - 마스크를 쓴 사람과 얼굴 측면이 보이는 경우에는 얼굴을 탐지하지 못함
 
-![image](https://user-images.githubusercontent.com/115875669/230789759-0b9d7b51-188b-4b0c-9577-4aab760ef9cd.png)
+CASE 1) model_selection(모델 선택)=0 일 때, 최소 감지 신뢰값(min_detection_confidence)을 0.2, 0.5, 0.8로 조정하였으나 얼굴 탐지 결과가 동일하며, 마스크 쓴 경우는 탐지하지 못합니다.
