@@ -1,6 +1,7 @@
 # 온라인 수강생의 자리비움 여부 탐지 모델링
 
-![ezgif com-resize](https://user-images.githubusercontent.com/115875669/230790831-14510ebd-d9d9-4d9c-8491-0f7492a4ca5f.gif)
+<center><img src="https://user-images.githubusercontent.com/115875669/230790831-14510ebd-d9d9-4d9c-8491-0f7492a4ca5f.gif" ></center>
+
 ## 1. 프로젝트 개요
 
 프로젝트 기간 : 22.12.22- 22.01.05 (2주)
@@ -25,7 +26,8 @@ __온라인 화상 수업에서 수강생이 자리를 비울 경우를 탐지�
 ## 4. 결과물
 
 1. 웹캠 실행, 인물 탐지 시작
-   <center><img src="https://user-images.githubusercontent.com/115875669/230788329-4c4ae5e4-5447-49a4-a91d-5fd0e654711e.png" width="500" height="450"></center>
+   
+   <center><img src="https://user-images.githubusercontent.com/115875669/230788329-4c4ae5e4-5447-49a4-a91d-5fd0e654711e.png" width="400" height="350"></center>
 <br/>
 
 2. 인물이 웹캠 화면을 이탈, 지속해서 자리에 없다면 '자리 비움' 로그 생성
@@ -34,11 +36,12 @@ __온라인 화상 수업에서 수강생이 자리를 비울 경우를 탐지�
 <br/>
 
 3. 인물이 다시 웹캠 화면 상에 탐지(25초경)
-   <img src= "https://user-images.githubusercontent.com/115875669/230788457-47572cd5-1abc-4df6-8395-d117c531974a.jpg" width="500" height="450">
+   
+   <center><img src= "https://user-images.githubusercontent.com/115875669/230788457-47572cd5-1abc-4df6-8395-d117c531974a.jpg" width="400" height="350"></center>
 
 <br/>
 
-4. 잠시 등장 후 화면 상에서 사라지면(31초), 그 기준으로 다시 자리 비움 여부를 체크(44초경 1회 자리 비움 메시지 출력)
+1. 잠시 등장 후 화면 상에서 사라지면(31초), 그 기준으로 다시 자리 비움 여부를 체크(44초경 1회 자리 비움 메시지 출력)
    ![image](https://user-images.githubusercontent.com/115875669/230788502-14351d43-ea22-42c6-8b16-688f8cb6e8db.png)
 
 <br/>
