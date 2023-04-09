@@ -2,6 +2,7 @@
 # 목차
 - [프로젝트(데이터 분석)](https://github.com/aimaimee/portfolio#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D)
   - [이커머스 데이터셋(Olist), 판매 물품 선정 가이드라인 분석](https://github.com/aimaimee/portfolio#%EC%9D%B4%EC%BB%A4%EB%A8%B8%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8Bolist-%ED%8C%90%EB%A7%A4-%EB%AC%BC%ED%92%88-%EC%84%A0%EC%A0%95-%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8-%EB%B6%84%EC%84%9D)
+  - [식도염의 원인 분석]
 - [프로젝트(ML)](https://github.com/aimaimee/portfolio#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8ml)
   - [온라인 수강생의 자리비움 여부 탐지 모델링](https://github.com/aimaimee/portfolio#%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%88%98%EA%B0%95%EC%83%9D%EC%9D%98-%EC%9E%90%EB%A6%AC%EB%B9%84%EC%9B%80-%EC%97%AC%EB%B6%80-%ED%83%90%EC%A7%80-%EB%AA%A8%EB%8D%B8%EB%A7%81)
 
@@ -25,6 +26,15 @@ __담당역할 :__
 - Olist의 매출과 품목을 중심으로 EDA를 진행(seaborn, plotly 활용)
 
 - RFM 분석을 진행(고객 분류에 점수를 부여하여 RFM 결과를 점수화, 해당 점수를 군집화와 z_score 점수와 비교할 수 있도록 데이터프레임화)
+
+### (개인프로젝트) 식도염의 원인 분석
+__코드 :__ []
+
+__보고서 :__
+
+__개요 :__
+
+
 
 ## 프로젝트(ML)
 ### 온라인 수강생의 자리비움 여부 탐지 모델링
