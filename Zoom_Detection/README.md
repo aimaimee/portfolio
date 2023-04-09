@@ -168,6 +168,11 @@ CASE 1) 팀원 사진을 모두 사전 학습
 
 - YOLOv7 코코 데이터셋과 파스칼 데이터셋 비교 자료의 부족함
   
-  YOLOv7 코코 데이터셋과 YOLOv7 파스칼 데이터셋 비교가 있어야 함 → 코드 정리 후 추가 예정
+  YOLOv7 코코 데이터셋과 YOLOv7 파스칼 데이터셋 비교가 있어야 함
+
+  → 코드 정리 후 추가 예정
+  
+  현재는 1. YOLOv7 순수한 가중치 + 파스칼 후처리 데이터셋 / 2. YOLOv7에서 사람만 예측하도록 후처리한 파스칼 데이터셋 결과 비교만 존재  
+  → 1번과 2번의 파스칼 데이터셋에 어떤 후처리가 있는지 팀원과 논의 예정(23/04/11)
 
 - Streamlit에서 인물탐지 웹캠 코드를 구현하지 못함 → [OpenCV 활용 Streamlit Face Detection](https://blog.jcharistech.com/2020/02/23/building-a-face-detection-app-with-streamlit-and-opencv/) 튜토리얼로 테스트 해보기
