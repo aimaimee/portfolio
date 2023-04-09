@@ -37,11 +37,11 @@ __온라인 화상 수업에서 수강생이 자리를 비울 경우를 탐지�
 
 3. 인물이 다시 웹캠 화면 상에 탐지(25초경)
    
-   <center><img src= "https://user-images.githubusercontent.com/115875669/230788457-47572cd5-1abc-4df6-8395-d117c531974a.jpg" width="400" height="350"></center>
+   <center><img src= "https://user-images.githubusercontent.com/115875669/230788457-47572cd5-1abc-4df6-8395-d117c531974a.jpg" width="400" height="380"></center>
 
 <br/>
 
-1. 잠시 등장 후 화면 상에서 사라지면(31초), 그 기준으로 다시 자리 비움 여부를 체크(44초경 1회 자리 비움 메시지 출력)
+4. 잠시 등장 후 화면 상에서 사라지면(31초), 그 기준으로 다시 자리 비움 여부를 체크(44초경 1회 자리 비움 메시지 출력)
    ![image](https://user-images.githubusercontent.com/115875669/230788502-14351d43-ea22-42c6-8b16-688f8cb6e8db.png)
 
 <br/>
@@ -59,11 +59,11 @@ __온라인 화상 수업에서 수강생이 자리를 비울 경우를 탐지�
 ## 6. 모델 선정 과정(MediaPipe, OpenCV, Face Recognition, YOLOv3-5-7)
 
 ### 6-1. YOLOv7 선택 이유
-🔸 모델 성능 비교 그래프 상, YOLOv3 < YOLOv5 ➡ YOLOv5 선택
+-  모델 성능 비교 그래프 상, YOLOv3 < YOLOv5 ➡ YOLOv5 선택
 
-🔸 confidence 점수 비교 상, YOLOv5 < YOLOv7 ➡ YOLOv7 선택
+-  confidence 점수 비교 상, YOLOv5 < YOLOv7 ➡ YOLOv7 선택
 
-🔸 confidence 점수 비교 상, 파스칼 데이터셋 < 코코 데이터셋 ➡ YOLOv7의 기본 데이터셋인 코코 데이터셋 선택
+-  confidence 점수 비교 상, 파스칼 데이터셋 < 코코 데이터셋 ➡ YOLOv7의 기본 데이터셋인 코코 데이터셋 선택
 
 #### 6-1-1. YOLOv3과 YOLOv5
 YOLOv3도 인물 탐지를 5명 모두 잘 하고 있지만 YOLO 모델 별 성능 비교 그래프를 확인하면 최근 버전이 더 나은 성능을 보여주는 것을 확인하고, YOLOv5와 YOLOv7 테스트 진행
@@ -113,12 +113,10 @@ CASE 2) model_selection(모델 선택)  = 1 일 때,
 
 ### 6-3. OpenCV
 > **OpenCV**는 영상 처리에 사용할 수 있는 오픈 소스 라이브러리.
->
-> <span style = "color: #0000FF">Face detection</span>의 결과물은 파란색 박스
 > 
-> Face detection의 결과물은 <span style = "background-color: #0000FF">파란색 박스</span>
+> Face detection의 결과물은 **파란색 박스**
 > 
-> Eye detection의 결과물은 <span style = "background-color : #008000">연두색 박스</span>로 출력
+> Eye detection의 결과물은 **연두색 박스**로 출력
 
 CASE 1) 5명 중 2명 탐지
 
