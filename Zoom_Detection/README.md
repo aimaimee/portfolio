@@ -25,8 +25,7 @@ __온라인 화상 수업에서 수강생이 자리를 비울 경우를 탐지�
 ## 4. 결과물
 
 1. 웹캠 실행, 인물 탐지 시작
-![image](https://user-images.githubusercontent.com/115875669/230788329-4c4ae5e4-5447-49a4-a91d-5fd0e654711e.png)
-
+   <center><img src="https://user-images.githubusercontent.com/115875669/230788329-4c4ae5e4-5447-49a4-a91d-5fd0e654711e.png" width="500" height="450"></center>
 <br/>
 
 2. 인물이 웹캠 화면을 이탈, 지속해서 자리에 없다면 '자리 비움' 로그 생성
@@ -35,7 +34,7 @@ __온라인 화상 수업에서 수강생이 자리를 비울 경우를 탐지�
 <br/>
 
 3. 인물이 다시 웹캠 화면 상에 탐지(25초경)
-   ![Untitled (16)_censored](https://user-images.githubusercontent.com/115875669/230788457-47572cd5-1abc-4df6-8395-d117c531974a.jpg)
+   <img src= "https://user-images.githubusercontent.com/115875669/230788457-47572cd5-1abc-4df6-8395-d117c531974a.jpg" width="500" height="450">
 
 <br/>
 
