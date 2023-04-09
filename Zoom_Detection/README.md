@@ -88,7 +88,11 @@ YOLOv7에서 파스칼 데이터셋을 활용해 사람만 예측하도록 후�
 
 <br/>
 
-### 6-2. MediaPipe
+### 6-2. 기타 모델 비선정 이유
+내용 추가
+
+
+### 6-3. MediaPipe
 > **MediaPipe는** 6개의 랜드마크(오른쪽 눈, 왼쪽 눈, 코 끝, 입 중심, 오른쪽 귀, 왼쪽 귀) 및 다중 얼굴 지원과 함께 제공되는 초고속 얼굴 감지 솔루션.
 > 
 > **min_detection_confidence**의 기본값은 0.5이며, 0.0~1.0 사이의 값으로 모델의 최소 신뢰값.
@@ -111,7 +115,7 @@ CASE 2) model_selection(모델 선택)  = 1 일 때,
 
 <br/>
 
-### 6-3. OpenCV
+### 6-4. OpenCV
 > **OpenCV**는 영상 처리에 사용할 수 있는 오픈 소스 라이브러리.
 > 
 > Face detection의 결과물은 **파란색 박스**
@@ -139,7 +143,7 @@ CASE 3) 5명 중 3명 탐지
 
 <br/>
 
-### 6-4. Face Recognition
+### 6-5. Face Recognition
 > Face Recognition은 딥러닝 기반으로 제작된 dlib의 얼굴 인식 기능을 사용하여 구축.
 > 
 > 수강생 정면 얼굴 사진과 이름을 사전 학습 시켜야 한다는 전제 조건이 발생.
@@ -154,3 +158,16 @@ CASE 1) 팀원 사진을 모두 사전 학습
 
 
 <img src="https://user-images.githubusercontent.com/115875669/230791507-269a934a-b9e7-4db5-af0f-a97287b5077c.png" width="400" height="430">
+
+<br/>
+
+## 7. 개인회고
+- YOLOv5와 YOLOv7 중 YOLOv7 선택 과정에서의 설득력 여부
+  
+  '0.80 후반대와 0.90 점수는 안나오지만 점수 분포가 고른 것' 과 '하나만 점수가 지나치게 낮지만, 나머지는 높은 점수대인 것' 중 후자인 YOLOv7을 고른 이유가 설득력 있는 이유가 있는가? → 팀원들과 논의 예정(23/04/11)
+
+- YOLOv7 코코 데이터셋과 파스칼 데이터셋 비교 자료의 부족함
+  
+  YOLOv7 코코 데이터셋과 YOLOv7 파스칼 데이터셋 비교가 있어야 함 → 코드 정리 후 추가 예정
+
+- Streamlit에서 인물탐지 웹캠 코드를 구현하지 못함 → [OpenCV 활용 Streamlit Face Detection](https://blog.jcharistech.com/2020/02/23/building-a-face-detection-app-with-streamlit-and-opencv/) 튜토리얼로 테스트 해보기
