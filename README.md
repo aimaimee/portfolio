@@ -1,13 +1,13 @@
 # portfolio
 ## 목차
-- [프로젝트(데이터 분석)](https://github.com/aimaimee/portfolio#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D)
+- [1️⃣ 데이터 분석](https://github.com/aimaimee/portfolio#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D)
   - [이커머스 데이터셋(Olist), 판매 물품 선정 가이드라인 분석](https://github.com/aimaimee/portfolio#%EC%9D%B4%EC%BB%A4%EB%A8%B8%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8Bolist-%ED%8C%90%EB%A7%A4-%EB%AC%BC%ED%92%88-%EC%84%A0%EC%A0%95-%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8-%EB%B6%84%EC%84%9D)
   - [(미니 프로젝트) 식도염의 원인 분석](https://github.com/aimaimee/portfolio#%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9D%EB%8F%84%EC%97%BC%EC%9D%98-%EC%9B%90%EC%9D%B8-%EB%B6%84%EC%84%9D)
-- [프로젝트(ML)](https://github.com/aimaimee/portfolio#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8ml)
+- [2️⃣ ML](https://github.com/aimaimee/portfolio#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8ml)
   - [온라인 수강생의 자리비움 여부 탐지 모델링](https://github.com/aimaimee/portfolio#%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%88%98%EA%B0%95%EC%83%9D%EC%9D%98-%EC%9E%90%EB%A6%AC%EB%B9%84%EC%9B%80-%EC%97%AC%EB%B6%80-%ED%83%90%EC%A7%80-%EB%AA%A8%EB%8D%B8%EB%A7%81)
+- [3️⃣ 미니 프로젝트](https://github.com/aimaimee/portfolio#%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 
-
-## 데이터 분석
+## 1️⃣ 데이터 분석
 ### 이커머스 데이터셋(Olist), 판매 물품 선정 가이드라인 분석
 __코드 :__ [Olist_ecommerce_code](https://github.com/aimaimee/portfolio/tree/main/olist_ecommerce/olist_code)
 
@@ -36,7 +36,7 @@ __개요 :__
 
 
 
-## ML
+## 2️⃣ ML
 ### 온라인 수강생의 자리비움 여부 탐지 모델링
 __코드 :__ [Zoom_Detection_code](https://github.com/aimaimee/portfolio/tree/main/Zoom_Detection/Zoom_Detection_code)
 
@@ -55,7 +55,7 @@ __담당역할 :__
 - YOLOv7 모델 연구(기본 코드 실행, YOLOv7 논문)
 - 발표
 
-## 미니 프로젝트
+## 3️⃣ 미니 프로젝트
 ### 뉴스 기사 스크래핑
 수집한 데이터 안에서, 원하는 키워드가 속한 기사를 스크래핑합니다. 키워드는 이슈 중 하나인 '환율'로 선정하였고, 환율 관련 기사를 찾을 수 있는 네이버 뉴스 경제 탭을 스크래핑하였습니다.
 
