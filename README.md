@@ -7,6 +7,10 @@
   - [온라인 수강생의 자리비움 여부 탐지 모델링](https://github.com/aimaimee/portfolio#%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%88%98%EA%B0%95%EC%83%9D%EC%9D%98-%EC%9E%90%EB%A6%AC%EB%B9%84%EC%9B%80-%EC%97%AC%EB%B6%80-%ED%83%90%EC%A7%80-%EB%AA%A8%EB%8D%B8%EB%A7%81)
 - [3️⃣ 미니 프로젝트](https://github.com/aimaimee/portfolio#3%EF%B8%8F%E2%83%A3-%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 
+</br>
+</br>
+</br>
+
 ## 1️⃣ 데이터 분석
 ### 이커머스 데이터셋(Olist), 판매 물품 선정 가이드라인 분석
 __코드 :__ [Olist_ecommerce_code](https://github.com/aimaimee/portfolio/tree/main/olist_ecommerce/olist_code)
