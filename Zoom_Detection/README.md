@@ -1,6 +1,6 @@
 # 온라인 수강생의 자리비움 여부 탐지 모델링
 
-<center><img src="https://user-images.githubusercontent.com/115875669/230790831-14510ebd-d9d9-4d9c-8491-0f7492a4ca5f.gif" ></center>
+![gif](./img/1.gif.gif)
 
 ## 1. 프로젝트 개요
 
@@ -16,44 +16,43 @@ __온라인 화상 수업에서 수강생이 자리를 비울 경우를 탐지�
 ### 3-1. 1차 후처리(사람 외 이동수단 인식 제거)
 
 가중치를 높여 보았을 때 해결이 되지 않아서, 라벨을 읽어볼 때부터 사람만 한정하는 코드를 추가해서 이동수단을 인식하는 경우를 제거
-![image](https://user-images.githubusercontent.com/115875669/230786156-a93f6088-847a-48ae-9bfb-013937c72d7f.png)
+![1차후처리](img/2.1차후처리.png)
 
 ### 3-2. 2차 후처리(사람을 인식하는 여러 개의 box 문제)
 사람은 한 명인데 너무 많이 인식하는 경우, 일정 confidence 값 이하로는 시각화하지 않도록 설정하여 해결
-![image](https://user-images.githubusercontent.com/115875669/230786286-c5aa3486-8a2d-4014-9166-6077b1a0db9f.png)
+![2차후처리](img/3.2차후처리.png)
 
 
 ## 4. 결과물
 
 1. 웹캠 실행, 인물 탐지 시작
    
-   <center><img src="https://user-images.githubusercontent.com/115875669/230788329-4c4ae5e4-5447-49a4-a91d-5fd0e654711e.png" width="400" height="350"></center>
+   ![결과물1](img/4.결과물.png)
 <br/>
 
 2. 인물이 웹캠 화면을 이탈, 지속해서 자리에 없다면 '자리 비움' 로그 생성
-   ![image](https://user-images.githubusercontent.com/115875669/230788394-0ea6075d-adfe-4a7b-a79d-5872b2692b3d.png)
+   ![결과물2](img/5.결과물.png)
 
 <br/>
 
 3. 인물이 다시 웹캠 화면 상에 탐지(25초경)
    
-   <center><img src= "https://user-images.githubusercontent.com/115875669/230788457-47572cd5-1abc-4df6-8395-d117c531974a.jpg" width="400" height="380"></center>
+   ![결과물3](img/6.결과물.jpg)
 
 <br/>
 
 4. 잠시 등장 후 화면 상에서 사라지면(31초), 그 기준으로 다시 자리 비움 여부를 체크(44초경 1회 자리 비움 메시지 출력)
-   ![image](https://user-images.githubusercontent.com/115875669/230788502-14351d43-ea22-42c6-8b16-688f8cb6e8db.png)
+   ![결과물4](img/7.결과물.png)
 
 <br/>
 
 ## 5. Edge Case
 ### 5-1. 거울에 비친 사람 인식
 거울에 비친 경우는 실체보다 낮은 점수지만, 사람이라고 판단하여 탐지
-![image](https://user-images.githubusercontent.com/115875669/230788617-8ba44fe0-42e6-446c-a9a5-48737c40bb3c.png)
+![EdgeCase](img/8.EdgeCase.png)
 
 ### 5-2. 인형, 그림, 사진을 사람으로 인식
-![image](https://user-images.githubusercontent.com/115875669/230788640-1853cee1-6845-424d-8936-2fb45976989b.png)
-
+![EdgeCase](img/9.EdgeCase.png)
 <br/>
 
 ## 6. 모델 선정 과정(MediaPipe, OpenCV, Face Recognition, YOLOv3-5-7)
@@ -67,7 +66,7 @@ __온라인 화상 수업에서 수강생이 자리를 비울 경우를 탐지�
 
 #### 6-1-1. YOLOv3과 YOLOv5
 YOLOv3도 인물 탐지를 5명 모두 잘 하고 있지만 YOLO 모델 별 성능 비교 그래프를 확인하면 최근 버전이 더 나은 성능을 보여주는 것을 확인하고, YOLOv5와 YOLOv7 테스트 진행
-![image](https://user-images.githubusercontent.com/115875669/230788931-4e3a540e-115e-464c-a253-17eac3849845.png)
+![yolo3,yolov5](img/10.yolov3,yolov5.png)
 
 <br/>
 
@@ -75,7 +74,7 @@ YOLOv3도 인물 탐지를 5명 모두 잘 하고 있지만 YOLO 모델 별 성�
 YOLOv5에 비해 YOLOv7은 하나의 0.50점을 제외하고 모두 0.80 이상의 confidence를 확인할 수 있으므로 **YOLOv7을 선택**
 
 (❓ 해결 후 삭제 예정 : 하나만 점수가 지나치게 낮은것 vs 0.80 후반대와 0.90 점수는 안나오지만 점수 분포가 고른 것 중 YOLOv7이 설득력 있는 이유가 있는가?)
-![image](https://user-images.githubusercontent.com/115875669/230788984-c199d897-0519-449c-8848-c91851a79f56.png)
+![image](img/11.yolov5,yolov7.png)
 
 <br/>
 
@@ -103,7 +102,7 @@ CASE 1) model_selection(모델 선택) = 0 일 때,
 
 - 최소 감지 신뢰값(min_detection_confidence)을 0.2, 0.5, 0.8로 조정하였으나 얼굴 탐지 결과가 동일하며, 마스크 쓴 경우는 탐지 불가.
 
-![image](https://user-images.githubusercontent.com/115875669/230789574-203bbeb1-2f03-4ac4-ac1d-bbd8d4e40640.png)
+![image](img/12.mediapipe.png)
 
 <br/>
 
@@ -111,7 +110,7 @@ CASE 2) model_selection(모델 선택)  = 1 일 때,
 
 - model_selection = 0 인 경우에 비해 얼굴 측면을 잘 탐지하지만, 여전히 마스크 쓴 사람은 탐지 불가.
 
-![image](https://user-images.githubusercontent.com/115875669/230789643-b9f0ec88-45f6-4b33-96e4-dc09823c6a09.png)
+![image](img/13.mediapipe2.png)
 
 <br/>
 
@@ -139,7 +138,7 @@ CASE 3) 5명 중 3명 탐지
 - Face detection : 마스크를 쓴 사람이 없는 경우, 5명 중 3명의 얼굴을 탐지
 - Eye detection : 얼굴을 탐지한 3명 중, 눈을 제대로 탐지한 경우가 1건, 입을 눈으로 잘못 탐지한 경우가 1건, 눈을 아예 탐지하지 못한 경우가 1건
 
-![image](https://user-images.githubusercontent.com/115875669/230789721-534a4eb6-f1d1-4a7e-a37c-d0315db00c5e.png)
+![image](img/14.opencv.png)
 
 <br/>
 
@@ -157,7 +156,7 @@ CASE 1) 팀원 사진을 모두 사전 학습
 - 마스크를 쓴 사람과 얼굴 측면이 보이는 경우에는 얼굴을 탐지하지 못함
 
 
-<img src="https://user-images.githubusercontent.com/115875669/230791507-269a934a-b9e7-4db5-af0f-a97287b5077c.png" width="400" height="430">
+![image](img/15.facerecognition.png)
 
 <br/>
 
