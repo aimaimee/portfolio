@@ -1,13 +1,13 @@
 # portfolio
 ## 목차
-- [1️⃣ 데이터 분석](https://github.com/aimaimee/portfolio#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D)
+- [1️⃣ 데이터 분석](https://github.com/aimaimee/portfolio#1%EF%B8%8F%E2%83%A3-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D)
   - [이커머스 데이터셋(Olist), 판매 물품 선정 가이드라인 분석](https://github.com/aimaimee/portfolio#%EC%9D%B4%EC%BB%A4%EB%A8%B8%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8Bolist-%ED%8C%90%EB%A7%A4-%EB%AC%BC%ED%92%88-%EC%84%A0%EC%A0%95-%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8-%EB%B6%84%EC%84%9D)
+  - [예비 창업자들을 위한 서울 상권 분석 보고서](https://github.com/aimaimee/portfolio#%EC%98%88%EB%B9%84-%EC%B0%BD%EC%97%85%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%84%9C%EC%9A%B8-%EC%83%81%EA%B6%8C-%EB%B6%84%EC%84%9D-%EB%B3%B4%EA%B3%A0%EC%84%9C)
   - [(미니 프로젝트) 식도염의 원인 분석](https://github.com/aimaimee/portfolio#%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9D%EB%8F%84%EC%97%BC%EC%9D%98-%EC%9B%90%EC%9D%B8-%EB%B6%84%EC%84%9D)
-- [2️⃣ ML](https://github.com/aimaimee/portfolio#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8ml)
+- [2️⃣ ML](https://github.com/aimaimee/portfolio#2%EF%B8%8F%E2%83%A3-ml)
   - [온라인 수강생의 자리비움 여부 탐지 모델링](https://github.com/aimaimee/portfolio#%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%88%98%EA%B0%95%EC%83%9D%EC%9D%98-%EC%9E%90%EB%A6%AC%EB%B9%84%EC%9B%80-%EC%97%AC%EB%B6%80-%ED%83%90%EC%A7%80-%EB%AA%A8%EB%8D%B8%EB%A7%81)
-- [3️⃣ 미니 프로젝트](https://github.com/aimaimee/portfolio#3%EF%B8%8F%E2%83%A3-%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+- [3️⃣ 미니 프로젝트](https://github.com/aimaimee/portfolio#3%EF%B8%8F%E2%83%A3-%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-2%EA%B0%9C10%EA%B0%9C-%EC%A7%84%ED%96%89-%EC%A4%91)
 
-</br>
 </br>
 
 ## 1️⃣ 데이터 분석
@@ -31,7 +31,7 @@ __담당역할 :__
 
 ### 예비 창업자들을 위한 서울 상권 분석 보고서
 
-__보고서 :__
+__보고서 :__ [Seoul_Commercial_Area_md](https://github.com/aimaimee/portfolio/tree/main/Seoul_Commercial_Area)
 
 __개요 :__
 
@@ -40,6 +40,7 @@ __개요 :__
 __담당역할 :__
 
 - 유동인구와 매출 데이터셋 전처리, EDA 분석
+- 팀리더, 분담된 업무 진행과정 체크
 
 ### (개인프로젝트) 식도염의 원인 분석
 
